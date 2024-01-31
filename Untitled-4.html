@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <title>G-osztály | Gmail</title>
+</head>
+<body>
+
+    <style>
+        
+        body {
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="Untitled-1.html">G-osztály</a></li>
+        <li><a href="Untitled-2.html">Mercedes-AMG G-osztály</a></li>
+        <li><a href="Untitled-3.html">Galéria</a></li>
+        <li><a href="Untitled-4.html">Mercedes-Benz Hírlevél</a></li>
+        <li class="dropdown">
+          <a href="#">Mercedes Me</a>
+          <ul class="dropdown-content">
+              <li><a href="Login.html">Login </a></li>>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="grid-container">
+    <section class="content">
+        
+        <div class="container">
+            <h2>Feliratkozás Hírlevélre</h2>
+            <form action="mailto:hirlevel@mercedes.hu" method="post" enctype="text/plain">
+                <label for="email">E-mail cím:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Feliratkozás</button>
+            </form>
+        </div>
+        
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024. Mercedes-Benz Hungária Kft.</p>
+  </footer>
+
+</body>
+</html>
